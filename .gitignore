@@ -401,4 +401,6 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Obsidian vault files
-/.obsidian
+.obsidian/
+
+.vscode/

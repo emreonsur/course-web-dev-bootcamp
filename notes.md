@@ -390,7 +390,46 @@ This file needs to be linked to the HTML document in which we want to use the st
 </html>
 ```
 
-## deneme
+### `color` & `background-color` Properties
+
+>styles.css
+
+```css
+h1 {
+  color: white;
+  background-color: red;
+}
+
+p {
+  color: yellow;
+  background-color: blue;
+}
+```
+
+> index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Heading 1</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ut
+      possimus cupiditate commodi voluptatibus dignissimos quibusdam voluptatem
+      qui fuga laboriosam, expedita exercitationem hic? Accusamus, deleniti vel
+      unde ut neque similique.
+    </p>
+  </body>
+</html>
+```
+
+### CSS Color System
 
 
 

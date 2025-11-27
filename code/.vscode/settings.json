@@ -1,0 +1,9 @@
+{
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "livePreview.customExternalBrowser": "Chrome",
+  "livePreview.openPreviewTarget": "External Browser"
+}

@@ -305,3 +305,105 @@ We can talk about two different approaches to validation:
 - `minlength`
 - `maxlength`
 
+## Section 6: CSS: The Very Basics
+
+CSS is a language describing how documents are presented visually.
+
+### CSS Rule Syntax
+
+```
+selector {
+	property: value;
+}
+```
+
+> A CSS rule makes all `<h1>` elements purple
+
+```css
+h1 {
+	color: purple;
+}
+```
+
+### Including Styles
+
+#### Inline Styles
+
+```html
+<h1 style="color: wheat; background-color: brown">CSS Lab</h1>
+<button style="border-style: dashed">Button</button>
+```
+
+#### `<style` Element
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Lab</title>  
+
+    <style>
+      h1 {
+        color: green
+      }
+    </style>
+  </head>
+  <body>
+    <h1>First h1</h1>
+    <h1>Second h1</h1>
+    <h1>Third h1</h1>
+  </body>
+</html>
+```
+
+#### External Stylesheet — Best Practice
+
+> styles.css file contains CSS rules.
+
+```css
+h1 {
+  color: red;
+}
+```
+
+This file needs to be linked to the HTML document in which we want to use the styles. We can do this with the `<link>` element.
+
+> styles.css is now linked to index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Lab</title>
+    <link rel="stylesheet" href="style.css">
+    </style>
+  </head>
+  <body>
+    <h1>First h1</h1>
+    <h1>Second h1</h1>
+    <h1>Third h1</h1>
+  </body>
+</html>
+```
+
+
+
+
+
+## Section 7
+
+## Section 8
+
+## Section 9
+
+## Section 10
+
+## Section 11
+
+## Section 12
+
+## Section 13

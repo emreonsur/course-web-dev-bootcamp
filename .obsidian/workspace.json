@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,7 +185,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d6745ea1a6767fc",
+  "active": "d0430f1eb229d9c6",
   "lastOpenFiles": [
     "code/05-html-forms-tables/marathonForm.html",
     "code/05-html-forms-tables/heaviest_birds.html",

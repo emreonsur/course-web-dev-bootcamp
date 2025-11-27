@@ -1,9 +1,9 @@
 {
-    "workbench.colorTheme": "Shades of Purple (Super Dark)",
-    "livePreview.openPreviewTarget": "External Browser",
-    "livePreview.customExternalBrowser": "Chrome",
-    "editor.linkedEditing": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "livePreview.openPreviewTarget": "External Browser",
+  "livePreview.customExternalBrowser": "Chrome",
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true
 }
